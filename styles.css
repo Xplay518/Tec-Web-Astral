@@ -1,0 +1,142 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: red; /* Color de fondo */
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1vw 2%; /* Ajustar el espaciado */
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1vw 0;
+}
+
+/* Estilos para el nombre "AFTER HOUSE" */
+footer p {
+    font-size: 3vw; /* Usar unidades relativas para el tamaño de la fuente */
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    letter-spacing: 0.2em;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+/* Estilos para la imagen en el footer */
+footer img {
+    display: block;
+    margin: 5vw auto; /* Usar unidades relativas para el margen */
+    max-width: 100%; /* La imagen se ajustará automáticamente a su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+/* Estilos para el video en la página de inicio */
+.video-container {
+    text-align: center;
+    margin-top: 5vw; /* Ajusta el margen superior según sea necesario */
+    height: 25%;
+}
+
+.video-container video {
+    width: 30%; /* Ajusta el ancho del video según sea necesario */
+    height: 30%;
+    display: block;
+    margin: 0 auto; /* Centrar el video horizontalmente */
+}
+
+/* Estilos para la imagen y el mapa en la página de lugar */
+.image-container,
+.map-container {
+    text-align: center;
+    margin-top: 5vw; /* Ajusta el margen superior según sea necesario */
+}
+
+.image-container img {
+    max-width: 100%; /* La imagen se ajustará automáticamente a su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.image-container {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.image img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+ 
+ .gallery2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image {
+    margin: 10px;
+    
+    
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+CONTACTO
+
+.contact-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-item img {
+    width: 150px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente según el ancho */
+    display: block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+.contact-item a {
+    display: block;
+    margin-top: 10px; /* Espacio entre la imagen y el enlace */
+    font-size: 18px; /* Tamaño de fuente del enlace */
+    text-align: center; /* Centrar el texto del enlace */
+}
