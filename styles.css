@@ -1,9 +1,20 @@
 /* Estilos generales */
+
+
+
 body {
+    background-image: url(fondo\ de\ fiesta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    /*background-color: red; /* Color de fondo */
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: red; /* Color de fondo */
+
 }
 
 header {
@@ -140,3 +151,28 @@ CONTACTO
     font-size: 18px; /* Tamaño de fuente del enlace */
     text-align: center; /* Centrar el texto del enlace */
 }
+
+responsive
+
+/* Estilos base para el div */
+div {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  /* Media query para pantallas más grandes */
+  @media (min-width: 768px) {
+    div {
+      font-size: 20px; /* Texto más grande */
+      padding: 20px; /* Mayor espaciado */
+    }
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 480px) {
+    div {
+      font-size: 14px; /* Texto más pequeño */
+      padding: 5px; /* Menor espaciado */
+    }
+  }
+  
